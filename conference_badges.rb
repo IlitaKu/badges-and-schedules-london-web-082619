@@ -17,8 +17,12 @@ def assign_rooms (names)
   end
   return assigned
 end
-def printer
-
+def printer(names)
+batch_badge_creator.each do |doesnt_metter|
+puts doesnt_metter
 end
-printer(names)
+assign_rooms.each do |whatever|
+purts whatever
+end
+end
   
